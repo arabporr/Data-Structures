@@ -70,8 +70,6 @@ inline void Print_Ans()
 }
 int32_t main()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);
 	input();
 	SCC();
 	Print_Ans();
