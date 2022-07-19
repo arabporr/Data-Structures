@@ -1,9 +1,11 @@
 #include <iostream>
 #include <queue>
 #include <vector>
+
 using namespace std;
 
 const int maxN=1e5+100;
+
 int n,v,m;
 int dist[maxN];
 bool mark[maxN];
@@ -50,8 +52,8 @@ void show()
 
 int main()
 {
-  input();
-  BFS(v);
-  show();
+	input();
+	BFS(v);
+	show();
 	return 0;
 }
