@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 
-
 using namespace std;
  
 const int MaxN = 1e3+100;
@@ -10,7 +9,6 @@ int parent [MaxN];
 bool mark[MaxN];
 bool leaves [MaxN];
 int n,m,com;
-
 
 void input()
 {
@@ -53,7 +51,6 @@ int main()
 		int Q;
 		int v;
 		cin>>Q;
-
 		if (Q==1)
 		{
 			cin>>v;
@@ -67,6 +64,5 @@ int main()
 		if(Q==3)
 			cout<<com<<endl;
 	}
-
-
+	return 0;
 }
