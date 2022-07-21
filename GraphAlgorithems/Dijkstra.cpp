@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-
 using namespace std;
 
 const int MaxN=1e5+100;
@@ -21,6 +20,7 @@ void input ()
 		adj[u].push_back(make_pair(v,w));
 	}
 }
+
 void expand(int v)
 {
 	mark[v]=true;
@@ -55,5 +55,4 @@ int main()
 	for (int i=1;i<=n;i++)
 		cout<<AvEd[i]<<"   ";
 	return 0;
-
 }
