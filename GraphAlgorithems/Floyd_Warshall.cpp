@@ -1,7 +1,7 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
+
 const int MaxN=1e2+100;
 int SP[MaxN][MaxN],n,m;
 
