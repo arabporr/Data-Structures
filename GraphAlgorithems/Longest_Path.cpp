@@ -4,6 +4,7 @@
 using namespace std;
 
 const int MaxN=1e5+100;
+
 int n,X,MX[MaxN][3],MaxDis;
 vector < int > adj [MaxN];
 bool mark [MaxN];
@@ -50,4 +51,5 @@ int main()
 		if(MX[i][1]+MX[i][2]>MaxDis)
 			MaxDis=MX[i][1]+MX[i][2];
 	cout<< MaxDis;
+	return 0;
 }
