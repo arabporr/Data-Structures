@@ -5,11 +5,13 @@
 using namespace std;
 
 const int MaxN=1e5+100;
+
 int n;
 int deg[MaxN];
 vector < int > adj [MaxN];
 bool mark [MaxN];
-queue <int> step [MaxN],New,Old; 
+queue <int> step [MaxN],New,Old;
+
 void input()
 {
 	 cin>> n;
@@ -23,6 +25,7 @@ void input()
 	 	deg[u]++;
 	 }
 }
+
 void show(queue<int> q)
 {
 	while(q.empty()==false){
@@ -30,6 +33,7 @@ void show(queue<int> q)
 		q.pop();
 	}
 }
+
 void Find_Cent()
 {
 	for(int i=1;i<=n;i++)
