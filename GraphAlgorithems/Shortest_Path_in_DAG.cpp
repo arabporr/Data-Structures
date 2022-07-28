@@ -2,10 +2,10 @@
 #include <vector>
 #include <queue>
 
-
 using namespace std;
 
 const int MaxN=1e3+100;
+
 vector<int> adj [MaxN],topological;
 int m,n,min_way [MaxN],how[MaxN],start,end1,deg[MaxN];
 
@@ -74,7 +74,6 @@ void show(int k)
 		cout<<start<<"  ";
 		return;
 	}
-	
 	show( how [k]);
 	cout<<k<<" ";
 	return;
