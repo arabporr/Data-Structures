@@ -14,7 +14,7 @@
 
 using namespace std;
 
-const int MaxN = 100001;
+const int MaxN = 101010;
 
 Customer* ListOfCustomers[MaxN];
 Customer* RICHEST = NULL;
