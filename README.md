@@ -1,2 +1,5 @@
-C++ implementation of some of the most well-known data structures and algorithms in the simplest way. Mostly in non-OOP style because I used to teach them to my students (aged 16 - 18), So the algorithms and the performance were the main points. 
-Note: I wrote these codes about four years ago, so let me know if something is wrong. Besides, I would be happy to hear your comments and suggestions. Together We Grow!
+# Data Structures
+This repository contains C++ implementation of some primary and essential data structures, which will be taught in the data structures course.
+Since I am currently the TA for this course, this repository does not contain all the course materials, and the rest of the codes will be uploaded as the course progresses.
+
+The purpose of the codes is mainly education and computation efficiency, so I tried to avoid any unnecessary complexity in using the programming language.
